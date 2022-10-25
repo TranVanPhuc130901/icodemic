@@ -1,0 +1,122 @@
+@media(min-width: 1120px) {
+    header .bot .right{display: none;}
+    .menu_btn{display: none;}
+    }
+
+    @media(max-width: 1119px) {
+        header .top .wrp .right .ip_search{display: none;}
+        .wrp{padding: 0 15px;}
+        header .bot{position: fixed; width: 70%; height: 100%; background: #008bde;top: 0; right: 0; z-index: 4; display: none;}
+        /* header .wrp .bot .datban{display: none;} */
+        header .bot a{display: block; width: 100%;border-bottom: 1px solid #fff;}
+        header .light{position: fixed; width: 100%; height: 100%; top: 0; left: 0;background: rgba(0, 0, 0, 0.4);z-index: 3; display: none; }
+    }
+       
+    @media(max-width: 991px) {
+   
+
+}
+
+@media(max-width: 830px) {
+    
+    .wrp .left,.wrp .col_right{width: 100%;}
+    .sec1_gioithieuct .wrp .left, .sec1_tailieuct .wrp .left, .thuvienanhct .wrp .left{width: 100%;}
+    .sec1_trangchu .right,.sec1_trangchu .left,.sec2_trangchu .wrp .right,.sec2_trangchu .wrp .left{width: 100%;}
+    /* .phantrang{display: none;} */
+    .lienhe .wrp .left, .thuvienanh .wrp .left, .thuvienanhds .wrp .left{width: 100%;}
+}
+
+
+@media(max-width: 767px) {
+   /* .menu_z{display: none;} */
+    /* .logo_ow{display: none;} */
+    header .top .wrp .right .language{display: none;}
+    footer .ft .wrp .top .ft_cl{width: 100%; margin-bottom: 20px; text-align: inherit;}
+    footer .ft .wrp .top .ft_colunm2 .box{margin: 0 auto;}
+    footer .ft_colunm3 .WImage{margin: 0 auto;}
+    .sec1_tailieutc{margin-bottom: 20px;}
+    
+  
+
+}
+@media (min-width: 573px){
+    .menu_z,.menu_chat{display: none;}
+    
+}
+@media (max-width: 673px){
+    .phantrang{display: flex; justify-content: center; align-items: center; flex-wrap: wrap;}
+    .right3{margin-bottom: 10px;}
+    
+}
+
+@media(max-width: 478px) {
+    .sec1_tintuctc .left .itemB .WImage,.sec1_tintuctc .left .itemB .info{width: 100%;}
+    
+    .sec2_trangchu .left .gr_item .item{width: 100%;}
+    footer .ft .wrp .top .ft_colunm2 .web{margin-bottom: 10px;}
+    .sec2_trangchu .right .top .WImage{width: 100%;}
+    .sec2_trangchu .right .top .info{width: 100%;}
+    iframe{height: 250px;}
+    .col_right .right1,.col_right .right1{display: none;}
+    .sec1_gioithieuct .wrp .left .link_ft a, .sec1_tailieuct .wrp .left .link_ft a, .thuvienanhct .wrp .left .link_ft a{font-size: 11px;}
+
+    .col_right .right1,.col_right .right2{display: none;}
+    header .top .wrp{font-size: 10px;}
+    .banner.owl-carousel .owl-nav button.owl-prev, .banner.owl-carousel .owl-nav button.owl-next{
+        width: 35px;height: 35px;font-size: 25px; transform: translateY(-50%);
+    }
+    .sec1_trangchu .titleH2 a{font-size: 15px;margin-bottom: 10px;}
+    .owl-dots{top: -50px;}
+    .sec1_trangchu .boder, .sec2_trangchu .boder{margin-bottom: 20px;}
+    .sec1_trangchu .left{margin-bottom: 20px;}
+    .sec1_trangchu .left .gr_items .item .titleH3 a {text-align: center;margin-bottom: 5px;}
+    .sec2_trangchu .titleH2{font-size: 15px;}
+    .sec2_trangchu .wrp .txt .all{font-size: 11px;}
+    .sec2_trangchu .wrp .txt{margin-bottom: 10px;}
+    .sec2_trangchu .left .gr_item .item .text h3,.sec2_trangchu .left .gr_item .item .text .visit{font-size: 11px;}
+    .boder::after{width: 10px; height: 10px;bottom: -5px;}
+    footer .ft .wrp .top .ft_cl .title{font-size: 15px;margin-bottom: 10px;}
+    footer .ft .wrp .top .ft_colunm .decs,footer .ft .wrp .top .ft_colunm2 a,footer .ft .wrp .top .ft_colunm2 .box .nguoi,footer .bot .wrp{font-size:11px;}
+    .sec1_gioithieusp .wrp .left .title a,.sec1_tintucds .left .titleH2 a{font-size: 14px;}
+    .sec1_gioithieusp .wrp .left .decs,.sec1_gioithieusp .wrp .left .date,.sec1_tintucds .left .itemB .info .date,.sec1_tintucds .left .itemB .info .decs{font-size: 11px;}
+    .wrp .col_right .title_nav{font-size: 14px;}
+    .wrp .col_right .right1 a,.s1 .text .phai .all{font-size: 11px;}
+    .sec1_gioithieuct .wrp .left, .sec1_tailieuct .wrp .left, .thuvienanhct .wrp .left{width: 100%;}
+    .sec1_tintucds .left .itemB .info .title a{font-size: 14px;}
+    .sec1_gioithieuct .wrp .left .title, .sec1_tailieuct .wrp .left .title, .thuvienanhct .wrp .left .title,.s1 .text .titleH2 a,.sec1_tintucds .left .itemB .info .title.active a{font-size: 14px;}
+    .sec1_gioithieuct .wrp .left .date_time .date .time, .sec1_tailieuct .wrp .left .date_time .date .time, .thuvienanhct .wrp .left .date_time .date {font-size: 9px;}
+    .sec1_gioithieuct .wrp .left .date_time .date .view, .sec1thuvienanhct_tailieuct .wrp .left .date_time .date .view, .sec1_tailieuct .wrp .left .date_time .date .view,.sec1_tintuctc .left .itemB .info .date,.sec1_tintuctc .left .itemB .info .decs{font-size: 10px;}
+    .sec1_gioithieuct .wrp .left .decs, .thuvienanhct .wrp .left .decs, .sec1_tailieuct .wrp .left .decs{font-size: 11px; margin-bottom: 20px;}
+    .font,.sec1_gioithieuct .wrp .left .des, .sec1_tailieuct .wrp .left .des, .thuvienanhct .wrp .left .des,.sec1_tintucct .des2{font-size: 9px;}
+    .sec1_tintuctc .left .item,.sec1_tintucct .left .item{font-size: 11px;}
+    .sec1_gioithieuct .wrp .left .link_ft .prev, .sec1_tailieuct .wrp .left .link_ft .prev, .thuvienanhct .wrp .left .link_ft .prev{font-size: 9px;}
+    .sec1_gioithieuct .wrp .left .link_ft .phai a, .sec1_tailieuct .wrp .left .link_ft .phai a, .thuvienanhct .wrp .left .link_ft .phai a{margin-right: 2px;}
+    .lienhe .wrp .left input{width: 100%;}
+    .lienhe .wrp .left .column{flex-wrap: wrap;}
+    .lienhe .wrp .left .column .col:first-child{margin: 0 0 15px 0}
+    .lienhe .wrp .left .btn{font-size: 11px; margin-bottom: 10px;}
+    .lienhe .wrp .left .btn span{display: inline-block; margin-bottom: 10px;}
+    .lienhe .wrp .left .btn .sub_btn{display: flex; white-space: nowrap;}
+    .lienhe .wrp .left .btn button.gui{margin-right: 5px;}
+    .lienhe .wrp .left, .thuvienanh .wrp .left, .thuvienanhds .wrp .left{margin-bottom: 10px;}
+    .thuvienanh .left .gr_item .item, .thuvienanhds .left .gr_item .item,.thuvienanhct .left .gr_items .item{width: calc((100% - 10px)/2); margin-bottom: 10px;}
+    .sec1_tintuctc .left .itemB .info .title a{font-size: 13px;}
+    .s1 .text{margin-bottom: 10px;}
+    table{font-size: 11px;}
+    .sec1_tailieuct .wrp .left .decs,.thuvienanhct .wrp .left .decs {font-size: 11px; margin-bottom: 15px;}
+    .sec1_tailieuct .wrp .left .des,.thuvienanhct .wrp .left .des{font-size: 11px;}
+    .thuvienanh .left .gr_item .item .txt, .thuvienanhds .left .gr_item .item .txt, .thuvienanhct .left .gr_item .item .txt{font-size: 11px;}
+    .thuvienanhct .wrp .left .link_ft a{font-size: 11px;}
+    .gr_itemDa .item{width: calc((100% - 10px)/2); margin-bottom: 10px;}
+    .duanct .left table tr,.lienhe .wrp .left .decs{font-size: 11px;}
+    .lienhe .wrp .left .titleH a,.lienhe .wrp .left .title2 a{font-size: 14px;}
+    .lienhe .wrp .left input{padding: 5px 8px;}
+    .banner{margin-bottom: 20px;}
+    .sec1_gioithieuct .wrp .left .WImage,.sec1_gioithieuct .wrp .left .link_ft, .sec1_tailieuct .wrp .left .link_ft, .thuvienanhct .wrp .left .link_ft{margin-bottom: 20px;}
+    .sec1_tintucds .left .itemB{margin-bottom: 15px;}
+    .sec1_tintucds .left .itemB .WImage,.sec1_tintucds .left .itemB .info{width: 100%;}
+    .sec1_tailieutc .left .text{margin-bottom: 15px;}
+}
+@media(max-width: 375px) {
+
+}
